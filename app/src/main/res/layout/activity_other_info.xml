@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OtherInfoActivity"
+    android:gravity="center"
+    android:background="#1a1a1a"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/question"
+        android:padding="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We have other various options for you. To explore them please Register as a Donor. And enjoy other features."
+        android:textSize="26sp"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textColor="#23dcd9"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_style_red"
+        android:text="Log in"
+        android:textColor="#fff"
+        android:width="140dp"
+        android:drawableRight="@drawable/ic_send_black_24dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:id="@+id/login"
+        android:foreground="?android:attr/selectableItemBackground"/>
+
+</LinearLayout>

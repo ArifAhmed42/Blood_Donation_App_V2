@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RequestBloodActivity"
+        android:orientation="vertical"
+        android:background="#1a1a1a"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="25dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please give required information and address of the patient. "
+                android:textColor="#f8f8ff"
+                android:textSize="20sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#00c5cd"
+                android:layout_marginTop="15dp">
+
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Required Blood Group"
+                android:textColor="#f8f8ff"
+                android:textSize="20sp"
+                android:layout_marginTop="15dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="15dp"
+                android:background="#f8f8ff"
+                android:id="@+id/bloodgroup"
+                android:textColor="#210f0f"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Patient's Name"
+                android:textColor="#f8f8ff"
+                android:textSize="20sp"
+                android:layout_marginTop="15dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="15dp"
+                android:background="#f8f8ff"
+                android:id="@+id/name"
+                android:textColor="#210f0f"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hospital's Name"
+                android:textColor="#f8f8ff"
+                android:textSize="20sp"
+                android:layout_marginTop="15dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="15dp"
+                android:background="#f8f8ff"
+                android:id="@+id/hospital_name"
+                android:textColor="#210f0f"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hospital's Address"
+                android:textColor="#f8f8ff"
+                android:textSize="20sp"
+                android:layout_marginTop="15dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="15dp"
+                android:background="#f8f8ff"
+                android:id="@+id/hospital_address"
+                android:textColor="#210f0f"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bed number/ Ward number and other necessary informations"
+                android:textColor="#f8f8ff"
+                android:textSize="20sp"
+                android:layout_marginTop="15dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="15dp"
+                android:background="#f8f8ff"
+                android:id="@+id/bed_number"
+                android:textColor="#210f0f"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hint : Bed -  , Ward - and other informations seemed necessary."
+                android:textColor="#39dad0"
+                android:textSize="17sp"
+                android:layout_marginTop="15dp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone Number"
+                android:textColor="#f8f8ff"
+                android:textSize="20sp"
+                android:layout_marginTop="15dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="15dp"
+                android:background="#f8f8ff"
+                android:id="@+id/phone"
+                android:textColor="#210f0f"
+                android:inputType="numberDecimal"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/button_style_red"
+                android:text="Request"
+                android:textColor="#fff"
+                android:width="140dp"
+                android:drawableRight="@drawable/ic_send_black_24dp"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:id="@+id/request_blood"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

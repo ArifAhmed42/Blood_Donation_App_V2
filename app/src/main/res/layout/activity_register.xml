@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1a1a1a">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We need you to give some information. Please answer the following qustions carefully. "
+            android:textColor="#f8f8ff"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#00c5cd"
+            android:layout_marginTop="15dp">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is your name?"
+            android:textColor="#f8f8ff"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:background="#f8f8ff"
+            android:id="@+id/name"
+            android:drawablePadding="10dp"
+            android:textColor="#210f0f"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your phone number"
+            android:textColor="#f8f8ff"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:background="#f8f8ff"
+            android:id="@+id/number"
+            android:textColor="#210f0f"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter the state you are living in"
+            android:textColor="#f8f8ff"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:background="#f8f8ff"
+            android:id="@+id/state"
+            android:textColor="#210f0f"
+            android:inputType="textCapCharacters"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please enter the state name in block letters ex. 'OSAKA' , 'DHAKA'."
+            android:textColor="#39dad0"
+            android:textSize="17sp"
+            android:layout_marginTop="15dp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your country"
+            android:textColor="#f8f8ff"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:background="#f8f8ff"
+            android:id="@+id/country"
+            android:textColor="#210f0f"
+            android:inputType="textCapCharacters"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please enter the country name in block letters ex. 'JAPAN' , 'INDIA'."
+            android:textColor="#39dad0"
+            android:textSize="17sp"
+            android:layout_marginTop="15dp"
+            android:textStyle="italic"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your blood group"
+            android:textColor="#f8f8ff"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:background="#f8f8ff"
+            android:id="@+id/blood_group"
+            android:textColor="#210f0f"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How frequent do you donate blood? (specify month/year)"
+            android:textColor="#f8f8ff"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:background="#f8f8ff"
+            android:id="@+id/donation_frequency"
+            android:textColor="#210f0f" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hint : 'once a year' / 'after 4 months' "
+            android:textColor="#39dad0"
+            android:textSize="17sp"
+            android:layout_marginTop="15dp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Do have any disease to mention? (Type name of the disease/No )"
+            android:textColor="#f8f8ff"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:background="#f8f8ff"
+            android:id="@+id/disease"
+            android:textColor="#210f0f"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hint : 'No' / 'Asthma' "
+            android:textColor="#39dad0"
+            android:textSize="17sp"
+            android:layout_marginTop="15dp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your e-mail address"
+            android:textColor="#f8f8ff"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:background="#f8f8ff"
+            android:id="@+id/email"
+            android:textColor="#210f0f"
+            android:inputType="textEmailAddress"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="N.B. This is the email address you will be registered with and will be required for further LogIn. Please enter carefully. "
+            android:textColor="#f4a609"
+            android:textSize="17sp"
+            android:layout_marginTop="15dp"
+            android:textStyle="italic"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your Log In password"
+            android:textColor="#f8f8ff"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:background="#f8f8ff"
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:textColor="#210f0f"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="N.B. Enter minimum 8 characters. Mixing of numbers and characters is highly recommended to secure your account."
+            android:textColor="#09f41d"
+            android:textSize="17sp"
+            android:layout_marginTop="15dp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm your password"
+            android:textColor="#f8f8ff"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dp"
+            android:background="#f8f8ff"
+            android:id="@+id/confirm_password"
+            android:inputType="textPassword"
+            android:textColor="#210f0f"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button_style_red"
+            android:text="Proceed"
+            android:textColor="#fff"
+            android:width="140dp"
+            android:drawableRight="@drawable/ic_send_black_24dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:id="@+id/proceed"
+            android:foreground="?android:attr/selectableItemBackground"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>
